@@ -1,0 +1,161 @@
+#card-body{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613461526_1-p-fon-dlya-prezentatsii-pro-dengi-dlya-detei-1.jpg);
+    background-position: 0%;
+    background-size: cover;
+  
+}
+.container {
+    margin-top: 100px;
+    width: 1200px;
+
+}
+#currency{
+    background:orangered;
+    color:black;
+    font-weight: bold;
+}
+label{
+   
+    margin-top: 20px;
+    margin-bottom: 30px;
+   width: 1290px;
+   height: 50px;
+   text-align: center;
+   background-color: rgb(17, 89, 151);
+   border-radius: 10px;
+   color:wheat;
+   font-size: 25px;
+   font-weight: bold;
+ 
+   
+}
+input{
+    margin-top: 35px;
+  
+   width: 1290px;
+   height: 52px;
+   text-align: center;
+   background-color:green;
+   border-radius: 10px;
+   color:wheat;
+   font-size: 25px;
+   font-weight: bold;
+   
+}
+input::placeholder{
+color:wheat;
+
+font-weight:bold ;
+}
+.btn1 {
+    margin-top: 30px;
+    width: 200px;
+    height: 43px;
+    background: navy;
+    border: none;
+    border-radius: 10px;
+    color:wheat;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card1 {
+    margin-top: 50px;
+    margin-left: 370px;
+    height: 200px;
+    background-color:darkorange;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 20px;
+    color: aqua;
+}
+#result{
+    color: darkblue;
+    margin-left: 470px;
+}
+@media (max-width:790px) {
+    label{
+        width: 700px;
+    }
+    input {
+        width: 700px;
+    }
+    #result{
+        margin-right: 200px;
+    }
+    .card1{
+        margin-left: -100px;
+    }
+}
+@media (max-width:570px) {
+    label{
+        width: 550px;
+    }
+    input {
+        width: 550px;
+    }
+    #result{
+        margin-left: 300px;
+    }
+    .card1{
+        margin-left: -100px;
+    }
+}
+@media (max-width:540px) {
+    label{
+        width: 500px;
+    }
+    input {
+        width: 500px;
+    }
+    #result{
+        margin-left: 300px;
+    }
+    .card1{
+        margin-left: -100px;
+    }
+}
+@media (max-width:510px) {
+    label{
+        width: 470px;
+    }
+    input {
+        width: 470px;
+    }
+    #result{
+        margin-left: 300px;
+    }
+    .card1{
+        margin-left: -100px;
+    }
+}
+@media (max-width:460px) {
+    label{
+        width: 450px;
+    }
+    input {
+        width: 450px;
+    }
+    #result{
+        margin-left: 300px;
+    }
+    .card1{
+        margin-left: -100px;
+    }
+}
+@media (max-width:360px) {
+    label{
+        width: 420px;
+    }
+    input {
+        width: 420px;
+    }
+    #result{
+        margin-left: 300px;
+    }
+    .card1{
+        margin-left: -100px;
+    }
+}
+
